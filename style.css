@@ -1,0 +1,220 @@
+/* html{
+    left:0;
+    overflow-y: hidden;
+} */
+.container{
+    position: absolute;
+    height:auto;
+    width:100%;
+    /* background-color: aqua; */
+}
+
+.nav{
+    position: relative;
+    width: 1440px;
+    height: 100px;
+    /* left: 0px;
+    top: 0px; */
+    float: right;
+}
+
+.nav_base{
+    /* nav-base */
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+    
+        background: #E9F1F7;
+        opacity: 0;
+    }
+
+.header{
+    position: relative;
+    width: 100%;
+    /* height: 720px; */
+    /* height: 650px; */
+    
+    top:0px;
+    background-repeat: repeat-y;
+    background: linear-gradient(rgb(215, 240, 240),rgba(215, 240, 240)), url(img-pattern.png);
+    background-blend-mode: screen;
+    /* border: 1px solid #000000; */
+    box-sizing: border-box;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* transform: rotate(-90deg); */
+}
+
+.menu{
+    position: absolute;
+    width: 561px;
+    height: 19px;
+    /* left: 815px; */
+    /* top: 41px; */
+    float: right;
+}
+
+
+.home{
+    /* Home */
+    position: absolute;
+    width: 46px;
+    height: 19px;
+    left: 815px;
+    top: 41px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+}
+
+.aboutus{
+    /* About Us */
+
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    left: 920px;
+    top: 41px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #131B23;
+
+
+}
+
+.services{
+    /* Services */
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 1044px;
+    top: 41px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #131B23;
+
+}
+.projects{
+    /* Projects */
+
+    position: absolute;
+    width: 65px;
+    height: 19px;
+    left: 1167px;
+    top: 41px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #131B23;
+
+}
+
+
+.contactus{
+    /* Contact Us */
+
+    position: absolute;
+    width: 88px;
+    height: 19px;
+    left: 1288px;
+    top: 41px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #131B23;
+}
+.logo{
+    /* Viseo Digital */
+
+    position: absolute;
+    width: 149px;
+    height: 28px;
+    left: 64px;
+    top: 36px;
+    color: black;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.ingenious_text{
+    /* INGENIOUS DESIGN & DEVELOPMENT */
+
+
+position: absolute;
+width: 618px;
+height: 96px;
+left: 124px;
+top: 327px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 48px;
+
+
+
+
+background-image: url(img-pattern.png);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+
+}
+
+.aboutusbutton{
+    position: absolute;
+width: 200px;
+height: 64px;
+left: 124px;
+top: 471px;
+
+}
+
+.headerimg{
+    /* img-des-code */
+    position: relative;
+    width: 220px;
+    height: 220px;
+    /* left: 820px; */
+    top: 200px;
+    float:right;
+
+    /* background: url(img-des-code.png); */
+}

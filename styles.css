@@ -1,0 +1,723 @@
+  @media screen and (max-width: 736px) {
+
+    .col_one{
+        width:100%;
+        float:left;
+        /* height: 100%; */
+        /* clear:left; */
+    }
+    
+    .col_two{
+        width:100%;
+        float:left;
+        /* height: 100%; */
+        /* float:right; */
+        /* clear:left; */
+        /* background-color: burlywood; */
+    }
+
+    #navbarSupportedContent15{
+        float:left;
+    }
+    .navbaritems{
+        float: left;    
+    }
+
+    .getintouch{
+        position: relative;
+        float:left;
+        width:100%;
+        margin: 5%;
+        object-fit: contain;
+    }
+    .social_media{
+        clear: left;
+        position: relative;
+        width: 100%;
+        float:left;
+    }
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    position: absolute;
+    height:auto;
+    width:100%;
+    /* background-color: aqua; */
+}
+
+.col_one{
+    width:50%;
+    height: 100%;
+    float:left;
+    clear:left;
+    /* background-color: aquamarine; */
+}
+
+.col_two{
+    width:50%;
+    height: 100%;
+    float:right;
+    clear:right;
+    /* background-color: burlywood; */
+}
+/* Header CSS */
+
+.testHeader{
+    background-blend-mode: screen;
+    /* border: 1px solid #000000; */
+    background: linear-gradient(rgb(233,241,247),rgb(233,241,247)), url(header_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+
+.navbaritems{
+    float: right;    
+}
+
+.nav_items a{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6vw;
+    line-height: 1.9vw;
+    color:#131B23;
+}
+
+.logo{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4vw;
+    line-height: 2.8vw;
+    color: black;
+}
+.active_page a{
+    color:#915FF2;
+}
+
+.ingenious_text{
+    /* INGENIOUS DESIGN & DEVELOPMENT */
+    /* position: relative; */
+    float:left;
+    /* width: 618px; */
+    /* height: 96px; */
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.0vw;
+    /* line-height: 48px; */
+
+    background-image: url(header_img.png);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#headerimgs{
+    position: relative;
+    /* left: 10%; */
+    /* margin-left: -50px; */
+}
+.aboutusbutton, .aboutusbutton a{
+    position: relative;
+    align-content: center;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4vw;
+    line-height: 2.8vw;
+    background: #2A1468;
+
+    color: #E9F1F7;
+    /* vertical-align: top; */
+}
+
+.laptopImg{
+    position: relative;
+    clear:right;
+    height:auto;
+    width:100%;
+    float:right;
+    background: white; /*url() no-repeat 50% 50%;*/
+    z-index: 2;
+}
+
+/* END OF HEADER CSS */
+
+
+/* Content CSS*/
+.whitespace{
+    position: relative;
+    background-color:white; 
+    height:100px;
+    width:100%;   
+    /* left:-10%; */
+    clear: right;
+    margin-top: -5%;
+}
+
+/*About US*/
+#aboutUs{
+    background-color: white;
+    height:auto;
+    width:100%;
+    clear: both;
+    padding-top: 5%;
+}
+.about_us_img{
+    position: relative;
+    /* clear:left; */
+    /* height:auto; */
+    width:50%;
+    /* float:left; */
+    background: white; /*url() no-repeat 50% 50%;*/
+    z-index: 2;
+}
+.aboutustextcontainer{
+    vertical-align:top;
+    padding-top:10%;
+    padding-left:10%;
+}
+.aboutustext{
+    /* width: 576px;
+    height: 240px; */
+    /* left: 744px; */
+    /* top: 1076px; */
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 32px; */
+    font-size: 3.2vw;
+    /* line-height: 40px; */
+    line-height: 4.0vw;
+    /* or 125% */
+
+
+    /* DV Black */
+
+    color: #131B23;
+}
+
+/* /About US*/
+
+
+
+
+
+/* SERVICES CSS*/
+.servicesbackground{
+    position: relative;
+    background-color: #F4F4F4;
+    height:auto;
+    width:100%;
+    /* clear: both; */
+    padding-top: 5%;
+    /* overflow: hidden; */
+    
+}
+
+.servicesheader{
+    position: relative;
+    width: auto;
+    /* float: left; */
+    position: relative;
+    background-color: #F4F4F4;
+    padding-left: 10%;
+}
+#box1{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 90%;
+    /* height: auto; */
+    background-color: white;
+    /* border-style: solid; */
+}
+#box2{
+    position: relative;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 90%;
+    /* height: auto; */
+    background-color: white;
+    /* border-style: solid; */
+}
+#box3{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 90%;
+    /* height: auto; */
+    background-color: white;
+    /* border-style: solid; */
+}
+#box4{
+    position: relative;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 90%;
+    /* height: auto; */
+    background-color: white;
+    /* border-style: solid; */
+}
+.box_img{
+    float:left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width:25%;
+    align-content: center;
+}
+.container2{
+    float: right;
+    width: 75%;
+    align-content: center;
+}
+.grey_text{
+    width: 75%;
+    position: absolute;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 16px; */
+    font-size: 1.6vw;
+    /* padding-top:10px; */
+    /* line-height: 19px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* clear: right; */
+    color: #131B23;
+
+    opacity: 0.5;
+
+}
+.heading{
+    position: relative;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 32px; */
+    font-size: 3.2vw;
+    /* line-height: 38px; */
+    padding-top: 5%;
+    
+    clear: both;
+
+    color: #131B23;
+
+}
+.main_text{
+    position: relative;
+    padding-bottom: 5%;
+    /* padding-top: 5%; */
+    /* width: 372px;
+    height: 96px;
+    left: 280px;
+    top: 1880px;
+     */
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 24px; */
+    font-size: 2.4vw;
+    width: 85%;
+    max-height: 80%;
+    
+    letter-spacing: -0.04em;
+    /* background-color: chartreuse; */
+    color: #131B23;
+}
+/*/SERVICES CSS */
+
+/* PRODUCTS CSS */
+.products_background{
+    position: relative;
+    width:100%;
+    height:auto;
+    background-color: white;
+    /* overflow: hidden; */
+    /* margin-top:10%; */
+    /* clear:both; */
+}
+
+.img1{
+    /* margin: 5%; */
+    padding-left:10%;
+    padding-top: 10%;
+}
+
+.img2{
+    /* margin: 5%; */
+    padding-left:10%;
+    background-color:white;
+    background: linear-gradient(to bottom,#F4F4F4);
+    /* padding-top: 10%; */
+}
+
+.products_header{
+    padding-top: 13%;
+    padding-left: 5%;
+    /* width: -10%; */
+    /* display: block; */
+    /* float: left; */
+}
+.products_text{
+    clear: left;
+    width: 90%;
+    padding-top:5%;
+    position: relative;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 32px; */
+    font-size: 2.2vw;
+    /* line-height: 40px; */
+    color: #131B23;
+    /* display: block; */
+}
+
+
+/* /PRODUCTS CSS */
+
+
+/*Testimonials*/
+.card1{
+    /* margin-left:5%; */
+    position:relative;
+    /* height:auto; */
+    width:45%;
+    height: fit-content;
+    /* border: solid 1px;  */
+    background-color:white;
+    margin-left: 2.5%;
+    /* z-index:2; */
+}
+.card2{
+    /* margin-right:5%; */
+    position:relative;
+    /* height:200px; */
+    width:45%;
+    /* border: solid 1px;  */
+    background-color:white;
+    margin-right: 2.5%;
+    /* z-index:2; */
+}
+.innercontainer{
+    /* margin:5%; */
+    /* margin-right: 1px; */
+    margin:10px;
+    padding-top: 5%;
+    height: 100%;
+    width: 100%;
+    /* width: auto; */
+    /* border: black 1px solid; */
+    float: left;
+}
+#testimonials{
+    background-color:#F4F4F4; 
+    overflow: auto;
+    width:100%; 
+    clear:left;
+}
+
+.grey_text_testimonial{
+    width: 75%;
+    /* position: absolute; */
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 16px; */
+    font-size: 1.6vw;
+    color: #131B23;
+
+    opacity: 0.5;
+}
+.heading_testimonial{
+    position: relative;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 32px; */
+    font-size: 3.2vw;
+    /* line-height: 38px; */
+    padding-top: 5%;
+    
+    clear: both;
+
+    color: #131B23;
+}
+.main_text_testimonial{
+    position: relative;
+    padding-bottom: 5%;
+    
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 24px; */
+    font-size: 2.4vw;
+    line-height: 3.2vw;
+    letter-spacing: -0.04em;
+    width: 90%;
+    letter-spacing: -0.04em;
+    
+    color: #131B23;
+}
+
+.trustpilot{
+    width: auto;
+    /* position: relative; */
+    padding-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 40%;
+    /* display: table; */
+    clear:left;
+    padding-bottom: 10%;;
+/* DV Black */
+
+
+/* box-sizing: border-box; */
+}
+#trustpilot_button{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 12px; */
+    font-size: 1.2vw;
+    /* line-height: 19px; */
+    /* identical to box height */
+
+    text-align: left;
+
+    /* DV Black */
+
+    color: #131B23;
+}
+/*/Testimonials*/
+
+/*Reachout */
+#reachout{
+    padding-left:10%;
+    padding-top: 5%;
+    background-color: white;
+    
+}
+.reach_out_question{
+    padding-top: 10%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 32px; */
+    font-size: 3.2vw;
+    line-height: 4.0vw;
+    /* or 125% */
+
+
+    /* DV Black */
+
+    color: #131B23;
+}
+.reach_out_main_text{
+    padding-top: 10%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 24px; */
+    font-size: 2.4vw;
+    line-height: 4.0vw;
+    /* or 167% */
+
+    letter-spacing: -0.04em;
+
+    /* DV Black */
+
+    color: #131B23;
+}
+.reachoutbutton{
+    
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 16px; */
+    font-size: 1.6vw;
+    line-height: 1.9vw;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #E9F1F7;
+}
+/*/Reachout */
+
+/*Footer*/
+#mainfooter{
+    width:95%;
+    height:200px;
+    /* height: auto; */
+    float: left;
+    margin-top:10%;
+    /* border: yellow solid 1px; */
+    background: #4BD8F9;
+}
+#sidepurple{
+    width:5%;
+    height:200px;
+    float: right;
+    margin-top:10%;
+    /* border: yellow solid 1px; */
+    background: #915FF2;
+}
+.getintouch{
+    position: relative;
+    float:left;
+    width:50%;
+    margin: 5%;
+    /* margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%; */
+
+    /* border: yellow solid 1px;  */
+    object-fit: contain;
+}
+.social_media{
+    position: relative;
+    width: 40%;
+    padding:2.5%;
+    
+    margin-top:2.5%;
+    /* padding-left: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%; */
+    float:right;
+    /* border: yellow solid 1px; */
+    
+}
+.number{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 24px; */
+    font-size: 2.4vw;
+    color: #131B23;
+}
+.email{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 24px; */
+    font-size: 2.4vw;
+    color: #131B23;
+}
+
+.copyright_footer{
+    clear:left ;
+    position: relative;
+    background-color:#E9F1F7;
+    width:100%;
+    height:100px;
+    display: flex;
+    padding-left: 37%;
+}
+.copyright{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 16px; */
+    font-size: 1.6vw;
+    line-height: 4.0vw;
+    /* identical to box height, or 250% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    /* DV Black */
+
+    color: #131B23;
+}
+/*/Footer*/
+
+/* ON HOVER CSS */
+#box1:hover #hoverpurple, #box2:hover #hoverpurple, #box3:hover #hoverpurple, #box4:hover #hoverpurple{
+    color:#915FF2;
+}
+
+
+#box1:hover #box1reg{
+    display:none;
+}
+#box1:not(:hover) #box1hover{
+    display: none;
+}
+#box1:hover #box1hover:hover{
+    display: block;
+}
+
+
+#box2:hover #box2reg{
+    display:none;
+}
+#box2:not(:hover) #box2hover{
+    display: none;
+}
+#box2:hover #box2hover:hover{
+    display: block;
+}
+
+#box3:hover #box3reg{
+    display:none;
+}
+#box3:not(:hover) #box3hover{
+    display: none;
+}
+#box3:hover #box3hover:hover{
+    display: block;
+}
+
+#box4:hover #box4reg{
+    display:none;
+}
+#box4:not(:hover) #box4hover{
+    display: none;
+}
+#box4:hover #box4hover:hover{
+    display: block;
+}
+
+.card1:hover #q_reg{
+    display: none;
+}
+.card1:not(:hover) #q_hover{
+    display: none;
+}
+.card1:hover #q_hover{
+    display: block;
+}
+
+.card2:hover #q_reg{
+    display: none;
+}
+.card2:not(:hover) #q_hover{
+    display: none;
+}
+.card2:hover #q_hover{
+    display: block;
+}
+
+.card1:hover .heading_testimonial{
+    color:#4BD8F9;
+}
+.card2:hover .heading_testimonial{
+    color:#4BD8F9;
+}
+/*/ON HOVER CSS */
