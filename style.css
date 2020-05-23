@@ -5,6 +5,9 @@
         float:left;
         width: 100%;
     }
+    .nav_padding{
+        padding-top: 1%;
+    }
     .navbar-toggler{
         float:right;
         display: block;
@@ -49,16 +52,41 @@
         display: flex;
         flex-direction: column-reverse;
         /* background-color: DodgerBlue; */
-      }
-      
-      .flex-container > div {
-        /* background-color: #f1f1f1; */
-        width: 50%;
-        /* margin: 10px; */
+    }
+
+    .flex-container > div {
+        width: 100%;
         align-items: center;
-        /* line-height: 75px; */
-        /* font-size: 30px; */
-      }
+    }
+    .laptop_img_container{
+        display: none;
+    }
+    .massive_text_container{
+        /* width: 100%; */
+        height: auto;
+    }
+    .massive_text{
+        display:flex; 
+        align-items:center;
+        clear:left;
+        width: 100%;
+    }
+    .massive_text p{
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 5.001vw;
+        width: 100%;
+        line-height: 48px;
+        
+        background-image: url(img-pattern-test.png);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: #ffffff;
+        padding-top: 10.3vh !important;
+        text-align: center;
+    }
+    .aboutus_button{}
 }
 
 .container_vd{
@@ -175,7 +203,7 @@ li a{
     /* color:#131B23; */
 } 
 .nav_padding{
-    padding-top: 8%;
+    padding-top: 4vh;
 }
 .active_page{
     color: #ffd729;
@@ -192,19 +220,12 @@ li a:hover{
         display: none;
     }
 }
-.massive_text_container{
-    /* height:93%; */
-    /* clear:left; */
-    /* width:50; */
-    display:flex; 
-    /* align-items:center; */
-    
-}
+
 .massive_text p{
     font-family: Work Sans;
     font-style: normal;
     font-weight: 900;
-    font-size: 12.1vh;
+    font-size: 5.001vw;
     /* line-height: 48px; */
 
     background-image: url(img-pattern-test.png);
@@ -215,6 +236,7 @@ li a:hover{
 }
 .massive_text{
     /* clear:left; */
+    
     padding-left: 7%;
     width:55%;
     float:left;
@@ -226,8 +248,27 @@ li a:hover{
     
     float:right;
     width:48.4vw;
+    /* width:auto; */
+    /* height: auto; */
     height:107vh;
-    display: flex;
+    /* display: flex; */
 }
 
+.aboutus_button{
+    /* width: 15.6vw; */
+    height: 11vh;
+    margin-top: 7vh;
+    background-color: #ffd729;
+}
+.aboutus_button a{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* DV Black */
+
+    color: #131B23;
+}
 
