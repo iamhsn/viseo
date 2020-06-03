@@ -35,7 +35,7 @@
                 
                 <div class="nav pure-menu-horizontal">            
                     <div class="navbar-header">
-                        <div class="nav_padding"><a class="logo" href="#">Viseo Digital</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button> </div>
+                        <div class="nav_padding"><a class="logo" href="#">Viseo Digital</a><a class="logo_mobile"></a>y<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button> </div>
                     </div>
 
                     <ul id="navbarSupportedContent15" style="float:right" class="collapse navbar-collapse navbar-header nav navbar-nav">
@@ -77,7 +77,7 @@
                         <img class="about_us_img" src="./about_us_img.png">
                     </div>
                     <div class="aboutus_main_text">
-                        <div><p style="display:flex;align-items: center;">
+                        <div><p style="display:flex;align-items: center;position:static;">
                             <span class="header_aboutus1">ABOUT US</span>
                             <span class="header_aboutus2">ABOUT US</span>
                         </p>
@@ -90,16 +90,108 @@
 
             <!--Services -->
             <div class="services">
-                <div style="padding-top: 15%;">
-                    <img src="Group9.png">
-                </div>
+                <img style="margin-left:2.5%;" src="Group9.png">
+                <div class="col1">
+                    <!-- BOX1 -->
+                    <div id="box1">
+                        <div id="box1img" class="box_img">
+                            <img id="box1reg" style="" src="./services/box1.png">
+                            <!-- <img id="box1hover" style="" src="./services/box1_hover.png"> -->
+                        </div>
+                        <div class="main_content_services">
+                            <!-- <div class="grey_text"> -->
+                                <p class="grey_text">FUNCTIONALITY FOCUSED</p>
+                            <!-- </div> -->
+                            <!-- <div class="heading"> -->
+                                <p class="heading" id="hoverpurple">Design</p>
+                            <!-- </div> -->
+                            <!-- <div class="main_text"> -->
+                                <p class="main_text"> We focus on crafting design that just doesn’t look good, but also creates an impact.</p>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    <!-- box2 -->
+                    <div id="box2">
+                        <div id="box1img" class="box_img">
+                            <img id="box1reg" style="" src="./services/box2.png">
+                            <!-- <img id="box1hover" style="" src="./services/box1_hover.png"> -->
+                        </div>
+                        <div class="main_content_services">
+                            <!-- <div class="grey_text"> -->
+                                <p class="grey_text">BUILT FOR STABILITY</p>
+                            <!-- </div> -->
+                            <!-- <div class="heading"> -->
+                                <p class="heading" id="hoverpurple">Development</p>
+                            <!-- </div> -->
+                            <!-- <div class="main_text"> -->
+                                <p class="main_text">We use the best of available tech to ensure maximum stability and long-term functionality.</p>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div><!-- COL END-->
+                <div class="col1">
+                    <!-- BOX3 -->
+                    <div id="box1">
+                        <div id="box1img" class="box_img">
+                            <img id="box1reg" style="" src="./services/box3.png">
+                            <!-- <img id="box1hover" style="" src="./services/box1_hover.png"> -->
+                        </div>
+                        <div class="main_content_services">
+                            <!-- <div class="grey_text"> -->
+                                <p class="grey_text">ENHANCED PRESENCE</p>
+                            <!-- </div> -->
+                            <!-- <div class="heading"> -->
+                                <p class="heading" id="hoverpurple">SEO</p>
+                            <!-- </div> -->
+                            <!-- <div class="main_text"> -->
+                                <p class="main_text"> We also offer search engine optimization services to help boost your digital presence.</p>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    <!-- BOX4 -->
+                    <div id="box2">
+                        <div id="box1img" class="box_img">
+                            <img id="box1reg" style="" src="./services/box4.png">
+                            <!-- <img id="box1hover" style="" src="./services/box1_hover.png"> -->
+                        </div>
+                        <div class="main_content_services">
+                            <!-- <div class="grey_text"> -->
+                                <p class="grey_text">RESULTS ORIENTED</p>
+                            <!-- </div> -->
+                            <!-- <div class="heading"> -->
+                                <p class="heading" id="hoverpurple">Free Consultation</p>
+                            <!-- </div> -->
+                            <!-- <div class="main_text"> -->
+                                <p class="main_text">We offer free consultation to diagnose & identify the best possible solution.</p>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div><!-- COL END-->                    
             </div>
             <!--/Services -->
 
             <!--projects -->
-            <!-- <div class="projects">
-                c
-            </div> -->
+            <div class="projects">
+                <div class="col1">
+                    <div class="block1">
+                        <img class="pure-img" src="./products/img1.png">
+                    </div>
+
+                    <div class="block2">
+                        <img src="./products/header.png">
+                        <p class="products_text">We have extensive experience working on various projects ranging from portfolios to corporate identities & web designs.</p>
+                    </div>
+                </div>
+                <div class="col1">
+                    <div class="block1">
+                        <img class="pure-img" src="./products/img3.png">
+                    </div>
+
+                    <div class="block2">
+                        <img class="pure-img" src="./products/img4.png">
+                    </div>
+                </div>
+            </div>
             <!--/projects -->
 
             <!--Reviews -->
