@@ -2,7 +2,7 @@
     <head>
         <title>Viseo Digital</title>
         
-        <meta name="viewport" content="width=device-width height=device-height, initial-scale=1.0">     
+        <meta name="viewport" content="height=device-height, initial-scale=1.0">     
         <!--Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -35,7 +35,11 @@
                 
                 <div class="nav pure-menu-horizontal">            
                     <div class="navbar-header">
-                        <div class="nav_padding"><a class="logo" href="#">Viseo Digital</a><a class="logo_mobile"></a>y<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button> </div>
+                        <div class="nav_padding">
+                            <a class="logo" href="#">Viseo Digital</a>
+                            <a class="logo_mobile">VD</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><i style="color:#FFD729;" class="fa fa-bars"></i></button> 
+                        </div>
                     </div>
 
                     <ul id="navbarSupportedContent15" style="float:right" class="collapse navbar-collapse navbar-header nav navbar-nav">
@@ -73,13 +77,14 @@
             <!-- About US -->
             <div class="aboutus pure-u-1-1">
                 <div class="aboutus_content">
-                    <div class="aboutus_img pure-img">
-                        <img class="about_us_img" src="./about_us_img.png">
+                    <div class="aboutus_img">
+                        <img class="about_us_img pure-img" src="./about_us_img.png">
                     </div>
                     <div class="aboutus_main_text">
                         <div><p style="display:flex;align-items: center;position:static;">
                             <span class="header_aboutus1">ABOUT US</span>
                             <span class="header_aboutus2">ABOUT US</span>
+                            <!-- <div style="line-height:80%; text-align:center; font-weight:bold; text-decoration: ; font-style:"><span style="font-size:72px; color:rgb(9,169,233); font-family:Arial">ABOUT US</span><br /><span style="font-size:16px; color:rgb(53,221,179); font-family:Arial">ABOUT US</span></div><a href=http://www.pageplugins.com>Hot Myspace Generators</a> -->
                         </p>
                         <!-- <div><img class="aboutus_header" src="./Group27.png"> -->
                         <p class="aboutus_main">We are a design & development studio with teams across Canada and India. Viseo Digital is a our platform to showcase our skills to impact the design and development domains.</p></div>
@@ -90,7 +95,7 @@
 
             <!--Services -->
             <div class="services">
-                <img style="margin-left:2.5%;" src="Group9.png">
+                <!-- <img style="margin-left:2.5%;" src="Group9.png"> -->
                 <div class="col1">
                     <!-- BOX1 -->
                     <div id="box1">
@@ -178,7 +183,7 @@
                     </div>
 
                     <div class="block2">
-                        <img src="./products/header.png">
+                        <!-- <img src="./products/header.png"> -->
                         <p class="products_text">We have extensive experience working on various projects ranging from portfolios to corporate identities & web designs.</p>
                     </div>
                 </div>
