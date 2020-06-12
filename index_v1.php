@@ -35,9 +35,9 @@
                 
                 <div class="nav pure-menu-horizontal">            
                     <div class="navbar-header">
-                        <div class="nav_padding">
+                        <div class="nav_padding pure-u-1-1">
                             <a class="logo" href="#">Viseo Digital</a>
-                            <a class="logo_mobile">VD</a>
+                            <a class="logo_mobile" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">VD</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><i style="color:#FFD729;" class="fa fa-bars"></i></button> 
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                     <div class="aboutus_main_text">
                         <div><p style="display:flex;align-items: center;position:static;">
                             <span class="header_aboutus1">ABOUT US</span>
-                            <span class="header_aboutus2">ABOUT US</span>
+                            <!-- <span class="header_aboutus2">ABOUT US</span> -->
                             <!-- <div style="line-height:80%; text-align:center; font-weight:bold; text-decoration: ; font-style:"><span style="font-size:72px; color:rgb(9,169,233); font-family:Arial">ABOUT US</span><br /><span style="font-size:16px; color:rgb(53,221,179); font-family:Arial">ABOUT US</span></div><a href=http://www.pageplugins.com>Hot Myspace Generators</a> -->
                         </p>
                         <!-- <div><img class="aboutus_header" src="./Group27.png"> -->
@@ -96,6 +96,7 @@
             <!--Services -->
             <div class="services">
                 <!-- <img style="margin-left:2.5%;" src="Group9.png"> -->
+                <span class="header_aboutus2">Services</span>
                 <div class="col1">
                     <!-- BOX1 -->
                     <div id="box1">
@@ -177,14 +178,17 @@
 
             <!--projects -->
             <div class="projects">
-                <div class="col1">
-                    <div class="block1">
+                <div class="col1 col1_exception">
+                    <div class="block1 desktop">
                         <img class="pure-img" src="./products/img1.png">
                     </div>
 
                     <div class="block2">
-                        <!-- <img src="./products/header.png"> -->
+                        <span class="header_aboutus1" style="padding-left:0;">Projects</span>
                         <p class="products_text">We have extensive experience working on various projects ranging from portfolios to corporate identities & web designs.</p>
+                    </div>
+                    <div class="block1_mobile">
+                        <img class="pure-img" src="./products/img1.png">
                     </div>
                 </div>
                 <div class="col1">
@@ -200,21 +204,89 @@
             <!--/projects -->
 
             <!--Reviews -->
-            <!-- <div class="reviews">
-                d
-            </div> -->
+            <div class="reviews">
+                <span class="header_aboutus2">Reviews</span>
+                <div class="col1">
+                    <div id="box1" class="review_box">
+                        <div id="box1img" class="box_img">
+                            <img id="box1reg" src="./testimonials/quotations.png">
+                        </div>
+                        <div class="main_content_services">
+                            <!-- <div class="grey_text"> -->
+                                <p class="grey_text">www.carvilleautosales.com</p>
+                            <!-- </div> -->
+                            <!-- <div class="heading"> -->
+                                <p class="heading">John from Carville Auto</p>
+                            <!-- </div> -->
+                            <!-- <div class="grey_text"> -->
+                                <p class="main_text">Velox Digital’s quick response towards an issue on my website is commendable. Highly recommend them!<p></p></p>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    <div id="box2" class="review_box">
+                        <div id="box1img" class="box_img">
+                            <img id="box1reg" src="./testimonials/quotations.png">
+                        </div>
+                        <div class="main_content_services">
+                            <!-- <div class="grey_text"> -->
+                                <p class="grey_text">www.carvilleautosales.com</p>
+                            <!-- </div> -->
+                            <!-- <div class="heading"> -->
+                                <p class="heading">John from Carville Auto</p>
+                            <!-- </div> -->
+                            <!-- <div class="grey_text"> -->
+                                <p class="main_text">Velox Digital’s quick response towards an issue on my website is commendable. Highly recommend them!<p></p></p>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="trustpilot">
+                    <button id="trustpilot_button" type="button">SEE MORE ON TRUSTPILOT</button>
+                </div>
+            </div>
             <!--/Reviews -->
 
             <!--Contact us -->
-            <!-- <div class="contactus">
-                e
-            </div> -->
+            <div class="contactus">
+                <div class="col1 contact_mobile">
+                    <div class="contact_info box1">
+                        <span class="header_aboutus1">Contact Us</span>
+                        <div><p class="reach_out_question">Ready to upgrade your digital presence? Let’s get in touch.</p></div>
+                        <div><p class="reach_out_main_text">We don’t need much information to start with, just tell us what you’re trying to achieve and we’ll figure out what’ll work best for you.</p></div>
+                    </div>
+                    <div class="contact_form box2">
+                        <form action="https://formspree.io/xgenvypy" method="POST">
+                            <div style="display:flex;">
+                                <input class="form_text name_padding" type="text" placeholder="Your Name" name="name">
+                                <input class="form_text email_paddingg" type="email" placeholder="Your Email" name="_replyto">
+                            </div>
+                            <textarea class="form_text txt_padding" placeholder="Your Message" name="message"></textarea>
+                            <button class="reachoutbutton" type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col1 contactus_info">
+                    <div class="contact_methods box1">
+                        <div class="header_aboutus1_inverted">Contact</div>
+                        <div class="test1"><i class="fa fa-phone fa-2x contact_icon" aria-hidden="true"><span class="number">+1 (517) 419 297</span></i></div>
+                        <div class="test2"><i class="fa fa-envelope-o fa-2x contact_icon" aria-hidden="true"><span class="email">hello@veloxdigital.co</span></i></div>
+                    </div>
+                    <div class="connect_methods box2">
+                        <span class="header_aboutus1_inverted">Connect</span>
+                        <div class="footer_items">
+                            <i class="fa fa fa-facebook fa-3x fb_curve" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-3x insta" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square fa-3x linkedin" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!--/Contact us -->
 
             <!--Footer -->
-            <!-- <div class="footer">
-                fs
-            </div> -->
+            <div class="copyright_footer">
+                <p class="copyright">Copyright Velox Digital - All Rights Reserved.</p>
+            </div>
             <!--/Footer -->
         </div>
         <!-- <script>

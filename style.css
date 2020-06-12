@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
-
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+  }
+@media screen and (min-width: 1920px) {
+    .container_vd{
+        padding-left:10%;
+        padding-right:10%;
+    }
+}
 @media screen and (max-width: 1025px) {
     .container_vd{
         width:100%!important;
@@ -37,13 +50,18 @@
         padding-top: 1%;
     }
     .navbar-toggler{
-        display: block;
+        /* display:inline-flex; */
         background-color: transparent;
         border: none;
         float: right;
+        margin-top: -30px!important;
     }
+    .navbar-toggle .icon-bar{
+        width: 50px !important;
+        height:3px !important;
+      }
     .navbar-header {
-        /* float: none; */
+        float: none;
     }
     .navbar-left,.navbar-right {
         float: none !important;
@@ -106,6 +124,7 @@
         font-size: 64px;
         width: 100%;
         /* line-height: 48px; */
+        line-height: 0;
         
         background-image: url(img-pattern-test.png);
         background-clip: text;
@@ -133,6 +152,13 @@
     .aboutus_main {
         padding-right: 0!important;
         padding-left:0!important;
+        
+    }
+    .aboutus_main_text{
+        width: 100%!important;
+        justify-self: center;
+        padding-left:5%;
+        /* padding-right:10%; */
     }
     .header_aboutus1{
         /* padding-left: 0!important; */
@@ -159,9 +185,93 @@
 
         width: 100%!important;
     }
+    
     /* .container_vd::-webkit-scrollbar{
         display:none;
     } */
+    .review_box1{
+        width: 95%!important;
+        margin-right:2.5%;
+    }
+    .review_box2{
+        width: 95%!important;
+        margin-left:2.5%;
+        margin-right:2.5%;
+    }
+    #trustpilot_button{
+        display:none;
+    }
+    .block1_mobile{
+        display:flex;
+    }
+    .desktop{
+        display:none!important;
+    }
+    .aboutus_main_text{
+        display:flex;
+        text-align: justify;
+        /* justify-content: center; */
+        
+    }
+
+    .contact_mobile{
+        display: flex;
+    }
+    .contact_mobile > div{
+        width:100%!important;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_info{
+        width:100%!important;
+        float:left;
+        /* word-wrap: break-word; */
+    }
+    .contact_form{
+        padding-left:0!important;   
+    }
+/* DO_DO_DO */
+    .contactus_info{
+        background: #FFD729!important; 
+    }
+    
+    .header_aboutus1_inverted{
+        -webkit-text-stroke: 2px #131B23!important;
+        color:  #FFD729!important;   
+        opacity: 0.1;
+    }
+    
+    .fb_curve{
+        display: inline-block;
+        border-radius: 50px;
+        box-shadow: 0px 0px 1px #888;
+        padding: 0em 0.1em;
+        color:  #131B23;
+        background-color:  #FFFFFF;
+    }
+    .linkedin{
+        color:  #FFFFFF;
+    }
+    .insta{
+        color:#FFFFFF;
+    }
+    .contact_icon{
+        color: #131B23!important;
+    }
+    .contact_methods{
+        display:flex;
+        width:100%!important;
+        float:left!important;
+        flex-direction: column;   
+    }
+
+    
+    .connect_methods{
+        display:flex;
+        width:100%!important;
+        float:left!important;
+        flex-direction: column!important;   
+    }
 }
 
 .mobile_header {
@@ -184,12 +294,15 @@
     /* left: 0.78vw; right: 0.78vw; */
     
 }
-
+html{
+    height:100%;
+}
 body{
     background-color:#131B23;
     font-family: sans-serif;
     position: absolute;
     margin: 0;
+    min-height: 100%;
 }
 
 
@@ -225,6 +338,7 @@ body{
     position: relative;
     /* height: 20%; */
     width:100%;
+    height:auto;
     /* border: 1px white solid; */
     background-color:#F4F4F4;
     padding-left:5%;
@@ -240,26 +354,36 @@ body{
 
 .projects{
     position: relative;
-    height: 16%;
+    /* height: 16%; */
+    height:auto;
     width:100%;
     /* border: 1px white solid; */
     background: #000000;
     padding-left:7.5%;
     padding-top:15%;
+    padding-bottom:5%;
     /* padding-right:2.5%; */
 }
 
 .reviews{
     position: relative;
-    height: 17%;
+    /* height: 17%; */
+    
     width:100%;
     /* border: 1px white solid; */
+    background: #F4F4F4;
+    padding-top:15%;
+    padding-left:5%;
+    padding-bottom:5%;
 }
 
 .contactus{
     position: relative;
     height: 13%;
     width:100%;
+    background: #000000;
+    padding-top: 15%;
+    padding-left: 5%;
     /* border: 1px white solid; */
 }
 
@@ -311,13 +435,15 @@ li a{
     /* color:#131B23; */
 } 
 .nav_padding{
-    padding-top: 4vh;
+    padding-top: 21px;
+
 }
 .active_page{
     color: #ffd729;
 }
 a:hover{
     text-decoration: none;
+    color: white;
 }
 a:active{
     text-decoration: none;
@@ -330,6 +456,9 @@ li a:hover{
         display: none;
     }
     .logo_mobile{
+        display:none;
+    }
+    .block1_mobile{
         display:none;
     }
 }
@@ -436,7 +565,7 @@ li a:hover{
 
 .header_aboutus1{
     width:100%;
-    padding-left: 10%;
+    /* padding-left: 10%; */
     font-family: Work Sans;
     font-style: normal;
     font-weight: bold;
@@ -456,19 +585,16 @@ li a:hover{
     font-family: Work Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    
-    
-    
-    /* transform: scaleY(50%); */
-    /* transform-origin: center; */
-    margin-left:-80%;
-    /* padding-top:3%; */
-    
-    /* Gray 6 */
-    
-    color: #F2F2F2;
-    position: relative;
+    font-size: 72px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px #FFD729;
+    /* opacity: 0.1; */
+    color: #F4F4F4;
+    /* DV Black */
+
+    /* border: 2px solid #131B23; */
 }
 .aboutus_main_text{
     display: flex;
@@ -531,7 +657,7 @@ li a:hover{
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 19px;
+    /* line-height: 19px; */
     color: #131B23;
     opacity: 0.5;
 }
@@ -601,5 +727,198 @@ li a:hover{
     font-size: 32px;
     /* line-height: 40px; */
     /* width:100%; */
+    color: #FFFFFF;
+}
+.review_box{
+    width:45%!important;
+}
+
+#trustpilot_button{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 12px; */
+    font-size: 1.2vw;
+    /* line-height: 19px; */
+    /* identical to box height */
+    border: 1px solid #131B23;
+    padding: 2.5%;
+    text-align: left;
+    display: flex;
+    /* DV Black */
+
+    color: #131B23;
+}
+.trustpilot{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+}
+/* Contact Us CSS */
+.contact_info{
+    width:40%!important;
+    float:left;
+    word-wrap: break-word;
+}
+.contact_form{
+    padding-left:5%;
+    float:right;
+    widows: 50% !important;
+    display:flex;
+    align-items: center;
+    padding-top:5%;
+}
+.reach_out_question{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.reach_out_main_text{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    
+    letter-spacing: -0.04em;
+    
+    color: #FFFFFF;
+}
+.form_text{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+    background-color: #000000;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    padding:2.5%;
+    /* opacity: 0.5; */
+}
+.email_paddingg{
+    margin-left:2%!important;
+    width:70%;
+}
+.txt_padding{
+    margin-top:5%;
+    width:100%;
+}
+.name_padding{
+    width:70%;
+}
+.reachoutbutton{
+    float:right;
+    margin-top:5%;
+    background: #FFD729;
+    color: #000000;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    padding:5%;
+}
+/* Footer CSS */
+
+.contact_methods{
+    width:60%;
+    /* float:left; */
+}
+.connect_methods{
+    width:40%;
+    float:right;
+}
+.number{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+
+    color: #FFFFFF;
+}
+.email{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+
+
+    color: #FFFFFF;
+}
+.contact_icon{
+    color: #FFD729;
+}
+
+}
+.fb_curve{
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1px #888;
+    padding: 0em 0.1em;
+    color:  #131B23;
+    background-color:  #FFFFFF;
+}
+.linkedin{
+    color:  #FFFFFF;
+}
+.insta{
+    color:#FFFFFF;
+}
+.header_aboutus1_inverted{
+    width:100%;
+    /* padding-left: 10%; */
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    /* line-height: 84px; */
+    /* left:0; */
+    /* align-items: center; */
+    -webkit-text-stroke: 1px #FFD729;
+    opacity: 0.5;
+    color:  #131B23;   
+    
+    /* width: 25%; */
+}
+.copyright_footer{
+    position: relative;
+    background-color:#333333;
+    width:100%;
+    height:100px;
+
+    display:flex;
+    justify-items: center;
+    
+    
+}
+.copyright{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    /* identical to box height, or 250% */
+
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    letter-spacing: -0.04em;
+
     color: #FFFFFF;
 }
