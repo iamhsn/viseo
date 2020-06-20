@@ -81,13 +81,9 @@
                         <img class="about_us_img pure-img" src="./about_us_img.png">
                     </div>
                     <div class="aboutus_main_text">
-                        <div><p style="display:flex;align-items: center;position:static;">
-                            <span class="header_aboutus1">ABOUT US</span>
-                            <!-- <span class="header_aboutus2">ABOUT US</span> -->
-                            <!-- <div style="line-height:80%; text-align:center; font-weight:bold; text-decoration: ; font-style:"><span style="font-size:72px; color:rgb(9,169,233); font-family:Arial">ABOUT US</span><br /><span style="font-size:16px; color:rgb(53,221,179); font-family:Arial">ABOUT US</span></div><a href=http://www.pageplugins.com>Hot Myspace Generators</a> -->
-                        </p>
+                        <div><p><span class="header_aboutus1 aboutus_mobile_header">ABOUT US</span></p>
                         <!-- <div><img class="aboutus_header" src="./Group27.png"> -->
-                        <p class="aboutus_main">We are a design & development studio with teams across Canada and India. Viseo Digital is a our platform to showcase our skills to impact the design and development domains.</p></div>
+                        <p class="aboutus_main">We are a design & development studio with teams across Canada and India. <span style="color:#FFD729;">Viseo Digital</span> is a our platform to showcase our skills to impact the design and development domains.</p></div>
                     </div>
                 </div>
             </div>
@@ -97,7 +93,7 @@
             <div class="services">
                 <!-- <img style="margin-left:2.5%;" src="Group9.png"> -->
                 <span class="header_aboutus2">Services</span>
-                <div class="col1">
+                <div class="services_layout">
                     <!-- BOX1 -->
                     <div id="box1">
                         <div id="box1img" class="box_img">
@@ -135,7 +131,7 @@
                         </div>
                     </div>
                 </div><!-- COL END-->
-                <div class="col1">
+                <div class="services_layout">
                     <!-- BOX3 -->
                     <div id="box1">
                         <div id="box1img" class="box_img">
@@ -184,7 +180,7 @@
                     </div>
 
                     <div class="block2">
-                        <span class="header_aboutus1" style="padding-left:0;">Projects</span>
+                        <span class="header_aboutus1">Projects</span>
                         <p class="products_text">We have extensive experience working on various projects ranging from portfolios to corporate identities & web designs.</p>
                     </div>
                     <div class="block1_mobile">
@@ -206,17 +202,17 @@
             <!--Reviews -->
             <div class="reviews">
                 <span class="header_aboutus2">Reviews</span>
-                <div class="col1">
+                <div class="services_layout">
                     <div id="box1" class="review_box">
                         <div id="box1img" class="box_img">
                             <img id="box1reg" src="./testimonials/quotations.png">
                         </div>
                         <div class="main_content_services">
                             <!-- <div class="grey_text"> -->
-                                <p class="grey_text">www.carvilleautosales.com</p>
+                            <p class="grey_text">CARVILLE.COM</p>
                             <!-- </div> -->
                             <!-- <div class="heading"> -->
-                                <p class="heading">John from Carville Auto</p>
+                                <p class="heading">John Carville</p>
                             <!-- </div> -->
                             <!-- <div class="grey_text"> -->
                                 <p class="main_text">Velox Digital’s quick response towards an issue on my website is commendable. Highly recommend them!<p></p></p>
@@ -229,10 +225,10 @@
                         </div>
                         <div class="main_content_services">
                             <!-- <div class="grey_text"> -->
-                                <p class="grey_text">www.carvilleautosales.com</p>
+                                <p class="grey_text">CARVILLE.COM</p>
                             <!-- </div> -->
                             <!-- <div class="heading"> -->
-                                <p class="heading">John from Carville Auto</p>
+                                <p class="heading">John Carville</p>
                             <!-- </div> -->
                             <!-- <div class="grey_text"> -->
                                 <p class="main_text">Velox Digital’s quick response towards an issue on my website is commendable. Highly recommend them!<p></p></p>
@@ -250,13 +246,13 @@
             <div class="contactus">
                 <div class="col1 contact_mobile">
                     <div class="contact_info box1">
-                        <span class="header_aboutus1">Contact Us</span>
+                        <span class="header_aboutus1">CONTACT</span>
                         <div><p class="reach_out_question">Ready to upgrade your digital presence? Let’s get in touch.</p></div>
                         <div><p class="reach_out_main_text">We don’t need much information to start with, just tell us what you’re trying to achieve and we’ll figure out what’ll work best for you.</p></div>
                     </div>
                     <div class="contact_form box2">
                         <form action="https://formspree.io/xgenvypy" method="POST">
-                            <div style="display:flex;">
+                            <div class="textbox">
                                 <input class="form_text name_padding" type="text" placeholder="Your Name" name="name">
                                 <input class="form_text email_paddingg" type="email" placeholder="Your Email" name="_replyto">
                             </div>
@@ -267,12 +263,12 @@
                 </div>
                 <div class="col1 contactus_info">
                     <div class="contact_methods box1">
-                        <div class="header_aboutus1_inverted">Contact</div>
+                        <div class="header_aboutus1_inverted">CONTACT</div>
                         <div class="test1"><i class="fa fa-phone fa-2x contact_icon" aria-hidden="true"><span class="number">+1 (517) 419 297</span></i></div>
                         <div class="test2"><i class="fa fa-envelope-o fa-2x contact_icon" aria-hidden="true"><span class="email">hello@veloxdigital.co</span></i></div>
                     </div>
                     <div class="connect_methods box2">
-                        <span class="header_aboutus1_inverted">Connect</span>
+                        <span class="header_aboutus1_inverted">CONNECT</span>
                         <div class="footer_items">
                             <i class="fa fa fa-facebook fa-3x fb_curve" aria-hidden="true"></i>
                             <i class="fa fa-instagram fa-3x insta" aria-hidden="true"></i>
